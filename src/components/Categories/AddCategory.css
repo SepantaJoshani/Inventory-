@@ -1,0 +1,17 @@
+.add__category__body{
+  display: flex;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  justify-content: center;
+  padding: 80px;
+  
+    
+}
+
+.add__category__text {
+ padding: 15px;
+ background-color: #6DD5FA;
+ border-radius: 15px;
+ cursor: pointer;
+ color: #262626;
+  
+}
