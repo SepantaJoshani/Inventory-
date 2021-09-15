@@ -1,24 +1,18 @@
-import React from 'react'
-import './AddCategory.css'
+import React, { useState } from "react";
+import "./AddCategory.css";
+import AddCatForm from "./AddCatForm";
 const AddCategory = () => {
 
+  return (
+    <div className="add__category__body">
+      <div className="add__category__text">
+        <p>Please Create a Category If Its Not In The List</p>
+      </div>
+      <AddCatForm />
+    </div>
+  );
+};
 
-    const addCategoryHandler = ()=>{
-      const categoryName=  prompt('Please Enter a Name ')
 
-    if(categoryName){
 
-    }        
-    }
-
-    return (
-        <div className="add__category__body">
-            <div className="add__category__text" onClick={addCategoryHandler}>
-                <p>Please Click Here If Yout Want to Create a New Category</p>
-            </div>
-           
-        </div>
-    )
-}
-
-export default AddCategory
+export default AddCategory;

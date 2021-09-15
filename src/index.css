@@ -11,3 +11,9 @@ main{
 p{
   color: #262626;
 }
+
+hr{
+  width: 100%;
+  border-color: rgb(233, 233, 233);
+  opacity: 0.2;
+}

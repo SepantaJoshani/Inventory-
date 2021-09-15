@@ -1,15 +1,33 @@
-.product{
-  background-color: #6DD5FA;
-    width: 100%;
-    display: flex ;
-    width: 80%;
-    justify-content: space-around;
-    border: 1px solid black;
-    border-radius: 15px;
-    height: 5vh;
-margin-top: 5px;
+.product {
+  background-color: #6dd5fa;
+  width: 120%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 5px;
+  height: 4vh;
+  position: relative;
 }
 
 .product p {
-   margin-top: 14px;
+  margin-top: 10px;
+}
+.product span {
+  color: #262626;
+  position: absolute;
+  top: 0;
+  right: 8px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .product  {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: auto;
+    
+
+  }
 }

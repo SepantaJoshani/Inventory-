@@ -1,10 +1,10 @@
 .choose__category__body {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid rgb(233, 233, 233);
   justify-content: center;
   align-items: center;
   padding: 80px;
+  width: 100%;
 }
 
 .choose__category__text {
@@ -41,7 +41,6 @@ select {
   padding: 20px;
   display: flex;
   justify-content: center;
-  color: blue;
   margin-top: 10px;
   width: 100%;
 }
